@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<!--[if lt IE 9]>
+	<div id="oldie">
+		<p>This is a unique website which will require a more modern browser to work!<br /><br/>
+		<a href="https://www.google.com/chrome/" target="_blank">Please upgrade today!</a>
+		</p>
+	</div>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Raleway%3A300%2C300italic%2C400%2C400italic%2C600%2C700%2C700italic&#038;ver=3.8.1' type='text/css' media='all' />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+<div id="container">
+	<div class="two_col">
+		<div class="left_col">
+			<div id="side_menu">
+				<div id="logo">
+					<a class="mainLogo" href="http://www.justinlau.name">Hi, I'm Justin!</a>
+				</div>
+				<ul id="side_nav">
+					<li class="bold">Portfolio</li>
+					
+						<ul id="sub_side_nav">
+							<li><a id="nav_all" data-filter="*" href="#">All</a></li>
+							<li><a id="nav_wd" data-filter=".webDesign" href="#">Web Design</a></li>
+							<li><a id="nav_p" data-filter=".progm" href="#">Programming</a></li>
+							<li><a id="nav_pd" data-filter=".prodDesign" href="#">Product Design</a></li>
+						</ul>
+					<li class="bold"><a id="getResume" href="#">Resume</a></li>
+					<li class="bold"><a id="getAbtMe" href="#">About Me</a></li>
+					<li class="bold"><a id="getContact" href="mailto:justin@justinlau.name">Contact</a></li>
+				</ul>
+				<div id="side_nav_bot">
+					<a href="http://www.linkedin.com/in/jkllau" target="_blank">
+						<img src="img/linkedin_icon.png" alt="icon" />
+					</a>
+					<a href="http://twitter.com/JustinLau16" target="_blank">
+						<img src="img/twitter_icon.png" alt="icon" />
+					</a>
+					<p class="clear">Designed and coded by <a href="http://www.linkedin.com/in/jkllau" target="_blank">Justin Lau</a></p>
+					<p>&copy; 2014 Justin Lau</p> 
+				</div>
+			</div>
+		</div>	
+		<div class="right_col">
+			<div id="abtMe_wrapper">
+				<strong class="title bold">About Me</strong>
+				<p>I am currently completing my undergraduate studies in <span class="bold">System Design Engineering</span> at the <span class="bold">University of Waterloo</span>, Canada. I have a strong interest in the field of Human Computer interaction.</p>
+				<p>I am a self-motivated individual. I am always updating my skill sets by learning new technologies or involving in side projects.</p>
+				<p>I am a perfectionist. For every line of code I write, I always consider the end user experience. I care about every line of code and every pixel.</p>
+			</div>
+			<!-- <div class="loading">
+				<img src="img/loadingGIF.gif" alt="Loading..." />
+			</div> -->
+			<div id="pdf_wrapper">
+				<iframe src="http://docs.google.com/gview?url=http://justinlau.name/misc/resume.pdf&embedded=true" style="width:1003px; height:700px;" frameborder="0"></iframe>
+			</div>
+			<div id="portfolio_wrapper">
+						
+				<div class="cube_container portfolio_section webDesign">
+					<div class="cube">
+						<div class="front">
+							<img src="img/ciw.png"/>
+						</div>
+						<div class="bottom">
+					    	<a href="#"><img src="img/ciw_b.png"/></a>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="cube_container portfolio_section webDesign">
+					<div class="cube">
+						<div class="front">
+							<img src="img/marep.png"/>
+						</div>
+						<div class="bottom">
+					    	<a href="#"><img src="img/marep_b.png"/></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="cube_container portfolio_section prodDesign">
+					<div class="cube">
+						<div class="front">
+							<img src="img/bike.png"/>
+						</div>
+						<div class="bottom">
+					    	<a href="#"><img src="img/bike_b.png"/></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="cube_container portfolio_section webDesign">
+					<div class="cube">
+						<div class="front">
+							<img src="img/ge.png"/>
+						</div>
+						<div class="bottom">
+					    	<a href="#"><img src="img/ge_b.png"/></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="cube_container portfolio_section progm">
+					<div class="cube">
+						<div class="front">
+							<img src="img/database.png"/>
+						</div>
+						<div class="bottom">
+					    	<a href="#"><img src="img/database_b.png"/></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="cube_container portfolio_section progm">
+					<div class="cube">
+						<div class="front">
+							<img src="img/ftp.png"/>
+						</div>
+						<div class="bottom">
+					    	<a href="#"><img src="img/ftp_b.png"/></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="cube_container portfolio_section progm">
+					<div class="cube">
+						<div class="front">
+							<img src="img/comp.png"/>
+						</div>
+						<div class="bottom">
+					    	<a href="#"><img src="img/comp_b.png"/></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="cube_container portfolio_section progm">
+					<div class="cube">
+						<div class="front">
+							<img src="img/car.png"/>
+						</div>
+						<div class="bottom">
+					    	<a href="#"><img src="img/car_b.png"/></a>
+						</div>
+					</div>
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+
+</div>
+<script type="text/javascript">
+
+	$(window).load(function(){
+		var $container = $('#portfolio_wrapper');
+
+		$container.isotope({
+		  filter: '*',
+	        animationOptions: {
+	            duration: 750,
+	            easing: 'linear',
+	            queue: false
+	        }
+	});
+
+	$('#sub_side_nav li a').click(function(){
+        
+        $('#sub_side_nav .current').removeClass('current');
+        $(this).addClass('current');
+ 
+        var selector = $(this).attr('data-filter');
+        $container.isotope({
+            filter: selector,
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+         });
+         return false;
+    	}); 
+	});
+	</script>
+
+
+<!-- IE7 Message Start -->
+<!--<div id="oldie">
+	<p>This is a unique website which will require a more modern browser to work!<br /><br/>
+	<a href="https://www.google.com/chrome/" target="_blank">Please upgrade today!</a>
+	</p>
+</div>-->
+<!-- IE7 Message End -->
+
+<!-- No Scripts Message Start -->
+<noscript id="scriptie">
+	<div>
+		<p>This is a modern website which will require Javascript to work. <br />Please turn it on!</p>
+	</div>
+</noscript>
+<!-- No Scripts Message End -->
+
+<script type="text/javascript" src="scripts/isotope.pkgd.min.js"></script>
+<script src="scripts/myJS.min.js"></script>
+</body>
+</html>

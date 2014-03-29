@@ -1,0 +1,21 @@
+.bold{
+	font-weight: bold;
+}
+.underline{
+	text-decoration: underline;
+}
+.title{
+	font-size: 36px;
+}
+.text{
+	line-height: 20px;
+}
+.loading{
+	display: none;
+}
+.current{
+	color: #fff !important;
+}
+.clear{
+	clear: both;
+}

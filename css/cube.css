@@ -1,0 +1,43 @@
+.cube_container {
+	-webkit-perspective: 999px;
+	color: #000;
+	font-family: sans-serif;
+	perspective: 999px;
+	text-transform: uppercase; }
+ 
+.cube {
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: -webkit-transform .33s;
+	height: 220px;
+	margin: 0;
+	text-align: center;
+	transform-style: preserve-3d;
+	transition: transform .33s;
+	width: 293px; }
+ 
+.front,.bottom {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden; }
+ 
+.front {
+	-webkit-transform: translateZ(110px);
+	transform: translateZ(110px); }
+ 
+.bottom {
+	-webkit-transform: rotateX(-90deg) translateZ(-110px);
+	transform: rotateX(-90deg) translateZ(-110px); }
+ 
+.cube:hover {
+	-webkit-transform: rotateX(90deg);
+	transform: rotateX(90deg); }
+ 
+.cube_desc {
+	background: black;
+	height: 220px;
+	position: absolute;
+	top: 0px;
+	width: 293px; }
+ 
+	.cube_desc h2, h3 {
+		font-size: 15px;
+		line-height: 20px; }

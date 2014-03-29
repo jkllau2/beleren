@@ -1,0 +1,132 @@
+@import url(reset.css);
+@import url(helper.css);
+@import url(cube.css);
+@import url(about.css);
+ 
+/* CSS Document */
+/**
+ * Project: My Portfolio
+ * Author: Justin Lau
+ * Date: Jan 2014
+ 
+ * Title: Global Style Sheet
+ 
+ */
+/* reset */
+@charset "utf-8";
+html {
+	background: #f5f5f5;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 100%;
+	text-align: center; }
+ 
+body {
+	height: 745px;
+	margin: 0 auto;
+	position: relative;
+	width: 1263px; }
+ 
+.two_col {
+	height: 745px;
+	width: 1263px; }
+ 
+.left_col {
+	background: #092b3f;
+	float: left;
+	height: 745px;
+	margin-left: -5px;
+	position: fixed;
+	width: 265px; }
+ 
+.right_col {
+	float: right;
+	height: 745px;
+	width: 1003px; }
+ 
+#side_menu { position: fixed; }
+ 
+#logo {
+	height: 67px;
+	margin-left: 48px;
+	margin-top: 50px;
+	text-align: left;
+	width: 260px; }
+ 
+.mainLogo {
+	color: #fff;
+	font-size: 47px;
+	font-weight: bold;
+	line-height: 55px; }
+ 
+#side_nav {
+	list-style: none;
+	margin-left: 48px;
+	margin-top: 70px;
+	text-align: left; }
+ 
+	#side_nav>li {
+		font-size: 16px;
+		line-height: 32px; }
+ 
+		#side_nav>li>a {
+			-webkit-transition: color 1s;
+			color: rgba(255, 255, 255, 0.498039);
+			transition: color 1s; }
+ 
+			#side_nav>li>a:hover {
+				-webkit-transition: color 1s;
+				color: #fff;
+				transition: color 1s; }
+ 
+#sub_side_nav {
+	list-style: none;
+	margin-left: 20px; }
+ 
+	#sub_side_nav li a {
+		-webkit-transition: color 225ms linear;
+		color: rgba(255, 255, 255, 0.498039);
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 32px;
+		transition: color 225ms linear; }
+ 
+		#sub_side_nav li a:hover {
+			-webkit-transition: color 225ms linear;
+			color: #fff;
+			transition: color 225ms linear; }
+ 
+.portfolio_section {
+	clear: both;
+	float: left !important;
+	margin: 14px 18px 14px 19px; }
+ 
+#side_nav_bot {
+	border-top: 1px dotted rgba(255, 255, 255, 0.498039);
+	margin-left: 48px;
+	margin-top: 150px;
+	padding-top: 10px;
+	text-align: left;
+	width: 170px; }
+ 
+	#side_nav_bot img {
+		-webkit-transition: opacity 225ms linear;
+		height: 30px;
+		opacity: 0.4;
+		transition: opacity 225ms linear;
+		width: 30px; }
+ 
+		#side_nav_bot img:hover {
+			-webkit-transition: opacity 425ms linear;
+			opacity: 1.0;
+			transition: opacity 425ms linear; }
+ 
+	#side_nav_bot p, #side_nav_bot a {
+		color: rgba(255, 255, 255, 0.498039);
+		font-size: 10px;
+		line-height: 17px;
+		text-align: center; }
+ 
+	#side_nav_bot > a {
+		float: left;
+		margin-right: 5px; }
